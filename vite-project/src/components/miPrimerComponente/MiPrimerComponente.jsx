@@ -1,3 +1,5 @@
+import { Estado } from "../Estado/Estado";
+
 export function MiPrimerComponente({ name, lastName}){
     return(
         <>
@@ -5,6 +7,13 @@ export function MiPrimerComponente({ name, lastName}){
         <div>
             <img src="./imgs/VII.jpeg" alt="" />
         </div>
+        <div>   
+            <img src="./imgs/maiden.jpeg" alt="" />
+        </div>   
+        <div>
+            <img src="./imgs/Rock 'n' Roll.jpeg" alt="" />
+        </div>
+        <Estado/>
         </>
     )
 }
