@@ -5,10 +5,9 @@ const MyFunction = () => {
 };
 //props
 function App() {
-  return (<>
-   <MyFunction/>
-   <MiPrimerComponente name={"la caja"} lastName={"Viejo Amigo"}/>
-  </>)
+  return (
+    <><GetPosts></GetPosts></>
+  )
 }
 
 export default App
