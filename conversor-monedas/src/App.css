@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f3f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a73e8; /* Azul similar al de Google */
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input-field,
+.select-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  background-color: #f8f9fa; /* Gris claro similar al de Google */
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result-value {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-container select {
+  flex: 1;
+  margin-left: 10px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  background-color: #f8f9fa; /* Gris claro similar al de Google */
+}
+
